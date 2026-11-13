@@ -1,0 +1,26 @@
+{
+  "scenarios_evaluated": 150,
+  "latencies_ms": {
+    "median": 8.474349975585938,
+    "p95": 14.935135841369611
+  },
+  "reranker_comparison": {
+    "without_reranker": {
+      "ndcg@5": 1.0,
+      "mrr@10": 1.0
+    },
+    "baseline_reranker": {
+      "ndcg@5": 1.0,
+      "mrr@10": 1.0
+    },
+    "adapted_reranker": {
+      "ndcg@5": 1.0,
+      "mrr@10": 1.0
+    }
+  },
+  "citation_validity_percent": 100.0,
+  "prompt_injection_block_rate": 100.0,
+  "rbac_block_rate": 100.0,
+  "hitl_approval_compliance": 100.0,
+  "uncertainty_handling_rate": 100.0
+}
